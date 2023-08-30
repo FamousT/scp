@@ -20431,7 +20431,8 @@ select {
 
   .menu {
     display: inline-block;
-    margin: 5px 0 0
+    margin: 5px 0 0;
+    color: #fff;
   }
 
   .logo a img {
@@ -20949,7 +20950,8 @@ screen and (max-height:300px) {
   .menu {
     float: right;
     margin: 0 -15px 0 0;
-    padding: 18px 26px
+    padding: 18px 26px;
+    color: #fff;
   }
 
   .button-border {
