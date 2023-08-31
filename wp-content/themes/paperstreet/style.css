@@ -18873,7 +18873,7 @@ p.firm-name-footer {
 #megaMenu .menu>li>a:before,
 .main-nav>ul>li>div a:before {
   font-family: FontAwesome;
-  color: #c84420
+  color: #07a2d9
 }
 
 address {
@@ -18931,7 +18931,7 @@ p.firm-name-footer {
 
 #megaMenu .menu>li:first-child,
 .main-nav>ul>li>div ul li+li {
-  border-top: 1px solid #0e2d3c
+  border-top: 1px solid #f2f2f2
 }
 
 .main-nav>ul>li+li {
@@ -18986,7 +18986,7 @@ p.firm-name-footer {
   padding: 40px;
   pointer-events: none;
   opacity: 0;
-  background: #d9d9d9
+  background: #404040e8
 }
 
 .megaMenu:after {
@@ -19016,7 +19016,7 @@ ul#menu-practices-column-c {
 
 #megaMenu .menu>li {
   display: block;
-  border-bottom: 1px solid #0e2d3c;
+  border-bottom: 1px solid #f2f2f2;
   position: relative
 }
 
@@ -19030,14 +19030,14 @@ ul#menu-practices-column-c {
 }
 
 #megaMenu .menu>li>a {
-  color: #111;
+  color: #f2f2f2;
   text-transform: none;
   padding: 22px 30px;
   line-height: 23px
 }
 
 #megaMenu .menu>li>a:hover {
-  color: #c84420
+  color: #07a2d9
 }
 
 select {
