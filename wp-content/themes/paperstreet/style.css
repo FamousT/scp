@@ -16672,7 +16672,8 @@ fieldset {
 
 .team-member.prof-staff h4 {
   margin-bottom: 0;
-  padding-top: 8px
+  padding-top: 8px;
+  text-transform: initial;
 }
 
 .team-member.prof-staff .footer p {
