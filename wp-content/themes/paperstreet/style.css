@@ -17907,13 +17907,13 @@ hr.heading-divider {
 
 .msg-box h1 {
   font-size: 70px;
-  line-height: .5;
+  /* line-height: .5; */
   margin: 0 0 2px;
   padding-top:1dvb;
 }
 
 .msg-box h1 span {
-  font-size: 75px;
+  font-size: 65px;
   display: block;
   color: #4d4d4d;
 }
