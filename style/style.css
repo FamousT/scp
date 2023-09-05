@@ -18876,6 +18876,13 @@ p.firm-name-footer {
   color: #c84420
 }
 
+#resourcesMenu .menu>li>a:before,
+.main-nav>ul>li>div a:before {
+  font-family: FontAwesome;
+  color: #c84420
+}
+
+
 address {
   margin-bottom: 53px
 }
@@ -18934,6 +18941,10 @@ p.firm-name-footer {
   border-top: 1px solid #0e2d3c
 }
 
+#resourcesMenu .menu>li:first-child,
+.main-nav>ul>li>div ul li+li {
+  border-top: 1px solid #0e2d3c
+}
 .main-nav>ul>li+li {
   margin-left: 38px
 }
@@ -18989,7 +19000,25 @@ p.firm-name-footer {
   background: #d9d9d9
 }
 
+.resourcesMenu {
+  position: absolute;
+  z-index: 3;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  padding: 40px;
+  pointer-events: none;
+  opacity: 0;
+  background: #d9d9d9
+}
+
 .megaMenu:after {
+  display: block;
+  clear: both;
+  content: ''
+}
+
+.resourcesMenu:after {
   display: block;
   clear: both;
   content: ''
@@ -19001,7 +19030,20 @@ p.firm-name-footer {
   opacity: 1
 }
 
+.resourcesMenu.is-active {
+  transform: translateY(0);
+  pointer-events: all;
+  opacity: 1
+}
+
 #megaMenu .menu {
+  float: none;
+  display: inline-block;
+  margin: 0;
+  width: 100%
+}
+
+#resourcesMenu .menu {
   float: none;
   display: inline-block;
   margin: 0;
@@ -19020,7 +19062,22 @@ ul#menu-practices-column-c {
   position: relative
 }
 
+#resourcesMenu .menu>li {
+  display: block;
+  border-bottom: 1px solid #0e2d3c;
+  position: relative
+}
+
 #megaMenu .menu>li>a:before {
+  content: '\f0da';
+  margin-right: 10px;
+  padding: 0 10px;
+  position: absolute;
+  top: 21px;
+  left: 0
+}
+
+#resourcesMenu .menu>li>a:before {
   content: '\f0da';
   margin-right: 10px;
   padding: 0 10px;
@@ -19036,7 +19093,19 @@ ul#menu-practices-column-c {
   line-height: 23px
 }
 
+#resourcesMenu .menu>li>a {
+  color: #111;
+  text-transform: none;
+  padding: 22px 30px;
+  line-height: 23px
+}
+
 #megaMenu .menu>li>a:hover {
+  color: #c84420
+}
+
+
+#resourcesMenu .menu>li>a:hover {
   color: #c84420
 }
 
@@ -20395,6 +20464,12 @@ select {
   }
 
   .main-nav>ul>li.megamenu ul {
+    width: 33.33%;
+    margin: 0;
+    padding: 0 15px
+  }
+
+  .main-nav>ul>li.resources ul {
     width: 33.33%;
     margin: 0;
     padding: 0 15px
