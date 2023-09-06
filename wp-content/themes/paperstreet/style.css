@@ -20493,7 +20493,7 @@ select {
 
   .logo a,
   .scrolled .logo a {
-    padding: 26px 0 28px 12px
+    padding: 53px 0 28px 12px
   }
 
   .contact>div,
@@ -20508,7 +20508,7 @@ select {
   .menu {
     display: inline-block;
     margin: 5px 0 0;
-    color: #fff;
+    color: #363636;
   }
 
   .logo a img {
