@@ -18807,7 +18807,7 @@ footer h3 {
 }
 
 footer .social {
-  margin-bottom: 47px
+  margin-bottom: 60px
 }
 
 .footline {
@@ -19002,7 +19002,7 @@ p.firm-name-footer {
   position: absolute;
   z-index: 3;
   top: 100%;
-  right: 20%;
+  right: 27%;
   /* width: 100%; */
   /* padding: 20px; */
   pointer-events: none;
