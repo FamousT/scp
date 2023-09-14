@@ -18306,7 +18306,7 @@ hr.heading-divider {
 
 .like-detail .initial-text {
   /* margin-top: 220px; */
-  padding-right: 40px
+  /* padding-right: 40px */
 }
 
 .like-detail .initial-text p {
@@ -18807,7 +18807,7 @@ footer h3 {
 }
 
 footer .social {
-  margin-bottom: 67px
+  margin-bottom: 47px
 }
 
 .footline {
@@ -18828,7 +18828,7 @@ footer .social {
 }
 
 .footline a {
-  font-family: Nunito, sans-serif;
+  font-family: Myriad Pro Light ;
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 0 8px
@@ -18838,7 +18838,8 @@ footer .social {
   font-size: 20px;
   font-weight: 700;
   margin: 0;
-  color: #132338
+  color: #132338;
+  /* padding-top: 50px; */
 }
 
 .contact-links div+div {
@@ -18846,21 +18847,23 @@ footer .social {
 }
 
 .contact-links span {
-  font-family: eb_garamond08_italic;
-  font-size: 26px;
+  font-family: Myriad Pro Light ;
+  font-size: 21px;
   font-weight: 400;
   display: inline-block;
   margin: 0 5px 0 0;
-  color: #fff
+  color: #fff;
+  /* font-style: italic; */
 }
 
 .contact-links span.fax_numb,
 address span,
 p.firm-name-footer {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   display: inline-block;
-  color: #ccc
+  color: #ccc;
+  font-family: Myriad Pro Light;
 }
 
 .contact-links>* {
@@ -18910,8 +18913,12 @@ p.firm-name-footer {
   font-size: 14px;
   margin-bottom: 38px;
   letter-spacing: 1.6px;
-  text-transform: uppercase;
-  color: #223341
+  text-transform:none;
+  color: #223341;
+  padding-top: 30px;
+
+  /* padding-bottom: 20px;
+  background-color: #4d4d4d; */
 }
 
 .main-nav>ul>li {
