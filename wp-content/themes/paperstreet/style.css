@@ -18676,7 +18676,7 @@ header>.row {
 }
 
 .scrolled .logo {
-  max-width: 280px
+  max-width: 400px
 }
 
 .scrolled .logo a {
@@ -20520,7 +20520,7 @@ select {
   }
 
   .logo a img {
-    width: 350px
+    width: 450px
   }
 
   .loc {
@@ -21558,15 +21558,15 @@ screen and (min-width:75em) {
 @media only screen and (max-width: 1445px) {
   .logo {
     float: left;
-    max-width: 350px;
+    max-width: 450px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .logo {
     float: left;
-    padding-top: 18px;
-    max-width: 350px;
+    padding-top: 15px;
+    max-width: 450px;
   }
 }
 
