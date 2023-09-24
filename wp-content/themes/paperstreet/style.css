@@ -17865,7 +17865,7 @@ hr.heading-divider {
 .main-slider .slide-content {
   display: table-cell;
   width: 100%;
-  padding-top: 236px;
+  padding-top: 266px;
   vertical-align: top
 }
 
@@ -20414,10 +20414,12 @@ select {
   }
 
   .msg-box h1 span {
-    font-size: 55px;
+    font-size: 45px;
     margin-top: 6px;
-    line-height:60px;
-    font-weight: 500;
+    /* line-height:60px; */
+    font-weight: 700;
+    font-family: Myriad Pro Light
+    ;
   }
 
   .msg-box p {
@@ -20437,7 +20439,7 @@ select {
 
 @media screen and (max-width:1440px) {
   .main-slider .slide-content {
-    padding-top: 187px !important
+    padding-top: 197px !important
   }
 
   .main-slider .slide2 .slide-content {
