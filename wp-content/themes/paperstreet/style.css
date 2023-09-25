@@ -16686,7 +16686,8 @@ fieldset {
 
 .team-member.prof-staff .footer a {
   padding: 0 0 8px;
-  display: inline-block
+  display: inline-block;
+  font-family: Helvetica;
 }
 
 .team-member.prof-staff .footer {
