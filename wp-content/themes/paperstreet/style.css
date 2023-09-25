@@ -15611,7 +15611,7 @@ iframe {
 .content h3.attorney-title,
 .header .search-box .input,
 .testimonial-box p {
-  font-style: italic
+  /* font-style: italic */
 }
 
 .close-button:focus,
