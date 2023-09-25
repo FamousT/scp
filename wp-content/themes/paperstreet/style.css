@@ -252,7 +252,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1686,8 +1686,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Helvetica -regular', sans-serif;
-  /* font-family: Helvetica sans-serif; */
+  font-family: 'Helvetica', sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif sans-serif; */
   font-weight: 400;
   font-style: normal;
   color: inherit;
@@ -5938,14 +5938,14 @@ screen and (min-width:75em) {
 }
 
 */ /@font-face {
-  font-family: helvetica;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   src: url(fonts/ebgaramond08-regular-webfont.woff2) format('woff2'), url(fonts/ebgaramond08-regular-webfont.woff) format('woff')
 }
 
 @font-face {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif, sans-serif;
   font-weight: 400;
   font-style: normal;
   src: url(fonts/ebgaramond08-italic-webfont.woff2) format('woff2'), url(fonts/ebgaramond08-italic-webfont.woff) format('woff')
@@ -12191,7 +12191,7 @@ script {
 }
 
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif, Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
@@ -15798,7 +15798,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'helvetica';
+  font-family: 'Helvetica, Arial, sans-serif';
   /* font-family: Nunito, sans-serif */
 }
 
@@ -16368,7 +16368,7 @@ fieldset {
   margin: 0 0 27px;
   text-align: justify;
   font-size: 18px;
-  font-family: helvetica;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .content p.indent {
@@ -16688,7 +16688,7 @@ fieldset {
 .team-member.prof-staff .footer a {
   padding: 0 0 8px;
   display: inline-block;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .team-member.prof-staff .footer {
@@ -17536,7 +17536,7 @@ ul {
 
 .msg-box h1 span,
 .slider-hold .tagline {
-  font-family: Helvetica ;
+  font-family: Helvetica, Arial, sans-serif ;
   font-style: italic;
 }
 
@@ -17956,7 +17956,7 @@ hr.heading-divider {
 }
 
 .who-we-are .text h3 {
-  font-family: Helvetica ;
+  font-family: Helvetica, Arial, sans-serif ;
   /* font-style: italic; */
   font-size: 44px;
   margin: 0 0 44px;
@@ -17965,7 +17965,7 @@ hr.heading-divider {
 }
 
 .who-we-are .text p {
-  font-family: 'Helvetica ';
+  font-family: 'Helvetica, Arial, sans-serif ';
   line-height: 1.9;
   letter-spacing: .5px;
   font-size:20px;
@@ -18188,7 +18188,7 @@ hr.heading-divider {
 }
 
 .pa a>span {
-  font-family: helvetica;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 30px;
   line-height: 1;
   padding-top: 16px;
@@ -18438,7 +18438,7 @@ _:-ms-lang(x) {
 
 .banner h1 span,
 .loc {
-  font-family: Helvetica, sans-serif
+  font-family: Helvetica, Arial, sans-serif, sans-serif
 }
 
 .bio-content {
@@ -18756,7 +18756,7 @@ footer {
 
 .footline,
 footer h3 {
-  font-family: Helvetica  ;
+  font-family: Helvetica, Arial, sans-serif  ;
   color: #132338;
   /* font-style: italic; */
 }
@@ -18828,11 +18828,11 @@ footer .social {
 }
 
 .footline span:last-child {
-  font-family: Helvetica 
+  font-family: Helvetica, Arial, sans-serif 
 }
 
 .footline a {
-  font-family: Helvetica ;
+  font-family: Helvetica, Arial, sans-serif ;
   font-size: 24px;
   font-weight: 700;
   margin: 0 0 0 8px
@@ -18851,7 +18851,7 @@ footer .social {
 }
 
 .contact-links span {
-  font-family: Helvetica ;
+  font-family: Helvetica, Arial, sans-serif ;
   font-size: 21px;
   font-weight: 400;
   display: inline-block;
@@ -18867,7 +18867,7 @@ p.firm-name-footer {
   font-weight: 500;
   display: inline-block;
   color: #ccc;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .contact-links>* {
@@ -18939,7 +18939,7 @@ p.firm-name-footer {
   color: #e8e7e7;
   border-top: 7px solid transparent;
   font-size: 16px;
-  font-family: Helvetica ;
+  font-family: Helvetica, Arial, sans-serif ;
 }
 
 .main-nav>ul>li.active>a,
@@ -20422,7 +20422,7 @@ select {
     margin-top: 6px;
     /* line-height:60px; */
     font-weight: 700;
-    font-family: Helvetica
+    font-family: Helvetica, Arial, sans-serif
     ;
   }
 
@@ -21546,14 +21546,14 @@ screen and (min-width:75em) {
 
 .loc .loc-aff a {
   color: #c8c8c8;
-  font-family: Helvetica ;
+  font-family: Helvetica, Arial, sans-serif ;
   font-size: 21px;
   font-weight: 400;
   font-style: italic;
 }
 
 .loc .loc-phone a {
-  font-family: Helvetica ;
+  font-family: Helvetica, Arial, sans-serif ;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: -.9px;
