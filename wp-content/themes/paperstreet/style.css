@@ -12191,7 +12191,7 @@ script {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
@@ -16367,6 +16367,7 @@ fieldset {
 .content p {
   margin: 0 0 27px;
   text-align: justify;
+  font-size: 18px;
 }
 
 .content p.indent {
@@ -17176,7 +17177,8 @@ p.blog-page-title {
   display: block;
   padding: 13px 0 13px 14px;
   color: #e8e7e7;
-  border-bottom: 1px solid #c2c2c2
+  border-bottom: 1px solid #c2c2c2;
+  font-size: 18px;
 }
 
 .sidebar .section.blog ul a:hover h3,
@@ -18934,7 +18936,7 @@ p.firm-name-footer {
   text-transform:uppercase;
   color: #e8e7e7;
   border-top: 7px solid transparent;
-  font-size: 18px;
+  font-size: 16px;
   font-family: Helvetica ;
 }
 
