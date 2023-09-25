@@ -252,7 +252,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: Helvetica;
   font-weight: 400;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1655,7 +1655,7 @@ p {
   font-size: inherit;
   line-height: 1.6;
   margin-bottom: 1rem;
-  text-rendering: optimizeLegibility
+  /* text-rendering: optimizeLegibility */
 }
 
 em,
@@ -1686,8 +1686,8 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: 'palatino-linotype-regular', sans-serif; */
-  font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Helvetica -regular', sans-serif;
+  /* font-family: Helvetica sans-serif; */
   font-weight: 400;
   font-style: normal;
   color: inherit;
@@ -2400,7 +2400,7 @@ label.middle {
 .help-text {
   margin-top: -.5rem;
   font-size: .8125rem;
-  font-style: italic;
+  font-style: normal;
   color: #0a0a0a
 }
 
@@ -5938,14 +5938,14 @@ screen and (min-width:75em) {
 }
 
 */ /@font-face {
-  font-family: eb_garamond08_regular;
+  font-family: helvetica;
   font-weight: 400;
   font-style: normal;
   src: url(fonts/ebgaramond08-regular-webfont.woff2) format('woff2'), url(fonts/ebgaramond08-regular-webfont.woff) format('woff')
 }
 
 @font-face {
-  font-family: eb_garamond08_italic;
+  font-family: Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
   src: url(fonts/ebgaramond08-italic-webfont.woff2) format('woff2'), url(fonts/ebgaramond08-italic-webfont.woff) format('woff')
@@ -15798,7 +15798,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'palatino-linotype-regular';
+  font-family: 'helvetica';
   /* font-family: Nunito, sans-serif */
 }
 
@@ -15912,7 +15912,7 @@ h6 {
 }
 
 .content .button {
-  max-width: 250px
+  max-width: 300px
 }
 
 .scroll {
@@ -16728,10 +16728,10 @@ a.add.addportfolio {
 }
 
 .content .practice-landing a p {
-  font-size: 15px;
+  font-size: 20px;
   margin: 0;
   line-height: 20px;
-  text-transform: uppercase
+  text-transform: none
 }
 
 .content .practice-landing a .view {
@@ -17532,7 +17532,7 @@ ul {
 
 .msg-box h1 span,
 .slider-hold .tagline {
-  font-family: palatino-linotype;
+  font-family: Helvetica ;
   font-style: italic;
 }
 
@@ -17952,8 +17952,8 @@ hr.heading-divider {
 }
 
 .who-we-are .text h3 {
-  font-family: palatino-linotype;
-  font-style: italic;
+  font-family: Helvetica ;
+  /* font-style: italic; */
   font-size: 44px;
   margin: 0 0 44px;
   letter-spacing: 1.5px;
@@ -17961,10 +17961,10 @@ hr.heading-divider {
 }
 
 .who-we-are .text p {
-  font-family: 'myriad-pro-light';
+  font-family: 'Helvetica ';
   line-height: 1.9;
   letter-spacing: .5px;
-  font-size:17px;
+  font-size:20px;
 }
 
 .who-we-are .button-wrap {
@@ -18184,7 +18184,7 @@ hr.heading-divider {
 }
 
 .pa a>span {
-  font-family: eb_garamond08_regular;
+  font-family: helvetica;
   font-size: 30px;
   line-height: 1;
   padding-top: 16px;
@@ -18434,7 +18434,7 @@ _:-ms-lang(x) {
 
 .banner h1 span,
 .loc {
-  font-family: eb_garamond08_italic
+  font-family: Helvetica, sans-serif
 }
 
 .bio-content {
@@ -18752,7 +18752,7 @@ footer {
 
 .footline,
 footer h3 {
-  font-family: myriad-pro-light ;
+  font-family: Helvetica  ;
   color: #132338;
   font-style: italic;
 }
@@ -18824,7 +18824,7 @@ footer .social {
 }
 
 .footline span:last-child {
-  font-family: palatino-linotype
+  font-family: Helvetica 
 }
 
 .footline a {
@@ -18934,8 +18934,8 @@ p.firm-name-footer {
   text-transform:uppercase;
   color: #e8e7e7;
   border-top: 7px solid transparent;
-  font-size: 16px;
-  font-family: palatino-linotype;
+  font-size: 18px;
+  font-family: Helvetica ;
 }
 
 .main-nav>ul>li.active>a,
@@ -21542,14 +21542,14 @@ screen and (min-width:75em) {
 
 .loc .loc-aff a {
   color: #c8c8c8;
-  font-family: Myriad-pro-light;
+  font-family: Helvetica ;
   font-size: 21px;
   font-weight: 400;
   font-style: italic;
 }
 
 .loc .loc-phone a {
-  font-family: palatino-linotype;
+  font-family: Helvetica ;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: -.9px;
